@@ -2,13 +2,14 @@
   "name": "mstssk-fb-hosting-sandbox",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
+  "author": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "firebase emulators:start"
+    "deploy": "firebase deploy",
+    "start": "firebase emulators:start",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "firebase-tools": "^9.2.2"
   }
